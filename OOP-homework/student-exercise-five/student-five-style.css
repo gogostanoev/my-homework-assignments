@@ -1,0 +1,8 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#clickButton{
+    margin-top: 20px;
+}

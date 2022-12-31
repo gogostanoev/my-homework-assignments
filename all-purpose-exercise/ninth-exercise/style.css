@@ -1,0 +1,27 @@
+div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+table tr{
+
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+table td{
+
+    border: 1px solid black;
+    
+}
+
+table{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

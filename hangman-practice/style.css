@@ -1,0 +1,174 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+    background-color: #c1d72e;
+    color: white;
+    padding-top: 4rem;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+}
+
+
+main {
+
+    scale: 1.1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+.firstDiv {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+
+.secondDiv {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+
+
+.thirdDiv {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+
+
+.fourthDiv {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+
+
+
+#buttonLetters ul, li{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    
+}
+
+
+
+button {
+
+    border: 1px solid white;
+    border-radius: 0.2em;
+    background: #c1d72e;
+    padding: 0.7em;
+    color: white;
+    transition: 200ms all ease;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+
+
+button:hover {
+
+    background: white;
+    cursor: pointer;
+    color: #c1d72e;
+    transition: 200ms all ease;
+}
+
+
+
+
+#buttonLetters button {
+
+    border: 1px solid white;
+    border-radius: 0.2em;
+    background: white;
+    padding: 0.5em;
+    color: #c1d72e;
+    transition: 200ms all ease;
+    font-family: monospace;
+    font-size: medium;
+}
+
+
+
+#buttonLetters button:hover {
+
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    transition: 200ms all ease;
+}
+
+#categoryElement {
+
+    margin: 15px;
+}
+
+#gameDiv {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#letterContainer ul, li {
+     
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    font-size: x-large;
+}
+
+#gameState {
+    margin: 15px;
+}
+
+#displayHangman {
+
+    border: 1px dashed white;
+    height: 20rem;
+    width: 22rem;
+    white-space: pre-wrap;
+}
+
